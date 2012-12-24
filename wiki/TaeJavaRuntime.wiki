@@ -55,6 +55,7 @@
         为了防止应用有意或无意地篡改用户Cookie信息，应用只能读取Cookie，无法通过新增Cookie信息。从代码层面来说，javax.servlet.http.HttpServletResponse#addCookie(javax.servlet.http.Cookie)方法将被禁止。
 
      ==HTTP响应（Response）头==
+        暂时无法读取相应头中的信息
           
      ==Session==
         暂时不开放写入Session的功能，即javax.servlet.http.HttpSession#setAttribute(String,Object)方法调用无效。在应用设计时，可以考虑使用CacheService来替代Session存储的功能。如果仍然无法满足需求，请提交需求给维护人：桃谷
@@ -78,7 +79,7 @@
 =部署规范=
 
      ==线下（开发）部署方式==
-
+     （更新中...)
      ==线上部署方式==
-
+     （更新中...)
      
